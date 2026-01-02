@@ -1,268 +1,318 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Myriam Milha</title>
-  <link rel="stylesheet" href="portfolio.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Myriam Milha</title>
+  <meta name="description" content="Portfolio de Myriam Milha — projets Master/Licence, web, sécurité, systèmes, embarqué." />
+  <link rel="stylesheet" href="portfolio.css" />
 </head>
+
 <body>
-  <header>
-    <h1>Myriam MILHA</h1>
-    <nav>
-      <a href="#perso">Projets personnels</a>
-      <a href="#master2">Master 2</a>
-      <a href="#master1">Master 1</a>
-      <a href="#licence">Licence</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">MM</div>
+        <div class="brand-text">
+          <h1>Myriam Milha</h1>
+          <p>Développeuse junior · Full-stack / Systèmes / Sécurité</p>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="#projets">Projets</a>
+        <a href="#master2">M2</a>
+        <a href="#master1">M1</a>
+        <a href="#licence">L2/L3</a>
+        <a href="#a-propos">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="intro">
-    <h2>Bienvenue sur mon portfolio</h2>
-    <p>
-      Actuellement étudiante en Master 2 Informatique – spécialité Programmation, Sûreté et Sécurité – à l’Université Sorbonne Paris Nord, je suis à la recherche d’un stage d’une durée de 4 mois à partir du 29 mai 2025. <br>
-      Motivée, curieuse et désireuse de monter en compétences, je souhaite intégrer une équipe dynamique au sein de laquelle je pourrai mettre à profit mes connaissances, contribuer à des projets concrets et innovants, et continuer à évoluer.      
-    </p>
-  </section>
+  <main id="contenu">
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero-left">
+        <p class="kicker">Portfolio</p>
+        <h2>Projets — web, systèmes, embarqué, model checking.</h2>
 
-  <section id="perso">
-    <h2>Projets Personnels</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Simulateur de communication en C</h3>
-        <p class="LF">
-          <strong>Langage : </strong><B>🔹C (avancé embarqué)</B>
-          <ul class="hidden">
-            <li>Développement en C d'un simulateur de communication entre outil de diagnostic et ECU embarquée. </br>
-              Lecture, écriture et affichage de paramètres via un protocole texte simplifié (inspiré du standard XCP).</br>
-              Projet structuré, testé, et versionné sous Git.
-            </li>
-            🔗 <a href="https://github.com/myriammilha/ecu-protocol-simulator-c.git" target="_blank">Voir sur GitHub</a>
-          </ul>
+        <p class="lead">
+          Développeuse junior diplômée d’un Master Informatique (Programmation, Sûreté & Sécurité) à l’Université
+          Sorbonne Paris Nord. Intéressée par le back-end, les systèmes et la sécurité, avec une base solide en
+          Java, C, Scala et JavaScript.
         </p>
-      </div>
-    </div>
-  </section>
-  
-  <section id="master2">
-    <h2>Projets réalisés en Master 2</h2>
-    <div class="grid">
-      
-      <div class="card">  
-        <h3>API REST Fullstack</h3>
-        <div class="LF">
-          <p><strong>Langages :</strong>
-            <ul class="rapetissir" style="list-style-type: none;">
-              <li><B>🔹JavaScript</B> : langage principal (frontend & backend).</li>
-              <li><B>🔹TypeScript</B> : utilisé dans la configuration (nuxt.config.ts).</li>
-              <li><B>🔹CSS</B> : pour le style de l'application.</li>
-              <li><B>🔹HTML</B> : fichiers manipulés (recherche, affichage, téléchargement).</li>
-            </ul>
-          </p>
-          <p><strong>Frameworks :</strong>
-          <ul class="rapetissir" style="list-style-type: none;">  
-            <li><B>🔹Nuxt 3</B> : framework basé sur Vue.js pour le frontend.</li>
-            <li><B>🔹Vue.js 3</B> : bibliothèque JavaScript pour construire l’interface utilisateur.</li>
-            <li><B>🔹Node.js</B> : environnement d’exécution JavaScript côté serveur.</li>
-            <li><B>🔹Express.js</B> : framework minimaliste pour créer l’API backend.</li>
-            <li><B>🔹Jest</B> : framework de test pour vérifier les fonctionnalités.</li>
-            <li><B>🔹Supertest</B> : outil pour tester les routes de l’API.</li>
-            <li><B>🔹GitLab CI/CD</B> : pour automatiser tests et déploiement.</li>
-            <li><B>🔹ESLint, Babel</B> : outils de développement (linting, transpilation = conversion du code écrit dans un langage (ou version) en un autre langage (ou version)).</li>
-          </ul>
-          </p>
+
+        <div class="chips" aria-label="Domaines">
+          <span class="chip">Full-Stack</span>
+          <span class="chip">Systèmes</span>
+          <span class="chip">Sécurité</span>
+          <span class="chip">Java / Scala</span>
+          <span class="chip">C</span>
+          <span class="chip">Web</span>
         </div>
-        <p><strong>Description :</strong>
-          <ul class="hidden">
-            <li>Développement d’une application web avec Nuxt 3 permettant de rechercher, afficher et télécharger dynamiquement des fichiers HTML stockés sur un serveur Express.js, avec gestion des erreurs, tests automatisés et intégration continue via GitLab.</li>
-            <ol>  
-              <li><B>API Server</B> – Gestion des services backend et stockage des données.</li>
-              <li><B>Web Server</B> – Serveur web pour la distribution des applications.</li>
-              <li><B>Web App</B> – Application web dynamique et interactive.</li>
-              <li><B>Desktop App</B> – Application de bureau développée avec Electron.</li>
-              <li><B>Jsau-webhybrid-nuxt App</B> – Application hybride web/mobile basée sur Nuxt 3, combinant frontend réactif et accès à des fonctionnalités natives via une interface simplifiée.</code>.</li>
-            </ol>
-            <li>Gestion de paquets NPM privés pour factorisation et réutilisation de code.</li>
-            <li>Architecture logicielle & DevOps : configuration serveurs, dépendances et stockage.</li>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#projets">Voir les projets</a>
+          <a class="btn" href="#contact">Contact</a>
+        </div>
+
+        <div class="quick-links" aria-label="Liens rapides">
+          <!-- Remplace # par tes liens -->
+          <a class="link" href="#" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="link" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="link" href="#" target="_blank" rel="noreferrer">CV (PDF)</a>
+        </div>
+      </div>
+
+      <aside class="hero-right" aria-label="Résumé">
+        <div class="panel">
+          <h3>Ce que tu trouveras ici</h3>
+          <ul class="bullets">
+            <li>Projets universitaires (L2/L3/M1/M2)</li>
+            <li>APIs, front/back, CI/CD</li>
+            <li>Algo, compilation, réseaux, vérification formelle</li>
           </ul>
+        </div>
+
+        <div class="panel">
+          <h3>Stack</h3>
+          <ul class="tags">
+            <li>Java</li><li>Scala</li><li>C</li><li>Python</li>
+            <li>JavaScript</li><li>Node/Express</li><li>Nuxt</li>
+            <li>Git</li><li>Tests</li><li>CI/CD</li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+
+    <!-- PROJETS (overview) -->
+    <section id="projets" class="section container">
+      <div class="section-head">
+        <h2>Projets</h2>
+        <p class="muted">
+          Sélection de projets. Chaque carte pointe vers le dépôt GitHub (pas de démo pour l'instant).
         </p>
       </div>
 
-      <div class="card">
-        <h3>Jeu Bataille Navale (Equipe Front-End)</h3>
-        <div class="LF">
+      <div class="grid projects-grid">
+        <!-- Carte modèle — duplique / adapte -->
+        <article class="card project">
+          <div class="card-top">
+            <h3>M2 — CTL model checker</h3>
+            <span class="meta">Java · Vérification</span>
+          </div>
           <p>
-            <strong>Langages et Frameworks :</strong>
-            <ul class="rapetissir" style="list-style-type: none;">
-              <li><B>Front-end :</B></li>
-              <ul style="list-style-type: none;">
-                <li><B>🔹JavaScript (avec React.js)</B> : pour créer l’interface utilisateur interactive.</li>
-                <li><B>🔹CSS3</B> : pour le style et les animations visuelles.</li>
-              </ul>
-              <li><B>Back-end :</B></li>
-              <ul style="list-style-type: none;">
-                <li><B>🔹Kotlin</B> : pour coder la logique du jeu côté serveur.</li>
-                <li><B>🔹SpringBoot</B> : framework utilisé avec Kotlin pour créer l’API REST.</li>
-              </ul>
-            </ul>
+            Implémentation d’un model checker CTL : parsing d’automates (DOT) et de formules CTL, puis
+            vérification de satisfaisabilité.
           </p>
-        </div>
-        <p>
-          <ul class="hidden">
-            <li>Développement d’une interface front-end interactive et immersive pour un jeu de bataille navale, jouable en solo ou en 1v1 en ligne. 
-            <br>Le front-end, réalisé en React.js, intègre des animations, un brouillard de guerre, un système de score en temps réel, ainsi que des interactions avec une API back-end (en Kotlin/SpringBoot).</li>
-            <li>Conception de l’interface sur Canva, intégration avec React et animations dynamiques.</li>
-            <li>Drag-and-drop avec React-DnD, effets sonores interactifs via useSound.</li>
-            <li>Communication avec le backend en Spring Boot via API asynchrones (ES6).</li>
-            <li>Gestion collaborative du code avec Git.</li>
-          </ul>
-          <ul class="hidden" style="list-style-type: none;">
-            <em>
-              <li>- Le front-end (interface utilisateur) envoie la demande au back-end (logique métier) via une requête HTTP.</li>
-              <li>– Le back-end reçoit la demande et décide :</li>
-              <ol>
-                <li>Est-ce que l'action est possible ?</li>
-                  <li>Est-ce que l’attaque touche un bateau ?</li>
-                  <li>Est-ce que le joueur peut encore jouer ?</li>
-                  <li>Est-ce que la partie est finie ?</li>
-              </ol>
-              <li>– Le back-end met à jour l’état du jeu.</li>
-              <li>– Le back-end il renvoie une réponse au front-end.</li>
-              <strong>
-              <ol>
-                <li>Front-end → action utilisateur</li>
-                <li>Back-end → décision, règles, mise à jour</li>
-                <li>Front-end → affichage des résultats</li>
-              </ol>
-              </strong>
-            </em>
-          </ul>
-        </p>
+          <div class="badges" aria-label="Technos">
+            <span class="badge">Java</span>
+            <span class="badge">Automates</span>
+            <span class="badge">CTL</span>
+          </div>
+          <div class="card-actions">
+            <a class="btn small" href="#" target="_blank" rel="noreferrer">Repo</a>
+            <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">README</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="card-top">
+            <h3>M2 — Web App (Nuxt + API Express)</h3>
+            <span class="meta">JS · Full-stack</span>
+          </div>
+          <p>
+            Application Nuxt consommant une API Express (Fetch API), avec tests et CI/CD.
+          </p>
+          <div class="badges">
+            <span class="badge">Nuxt</span>
+            <span class="badge">Express</span>
+            <span class="badge">CI/CD</span>
+          </div>
+          <div class="card-actions">
+            <a class="btn small" href="#" target="_blank" rel="noreferrer">Repo</a>
+            <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">Démo</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="card-top">
+            <h3>Embarqué — ECU protocol simulator (C)</h3>
+            <span class="meta">C · Communication</span>
+          </div>
+          <p>
+            Simulateur minimaliste en C d’une communication entre un outil de diagnostic et une ECU.
+          </p>
+          <div class="badges">
+            <span class="badge">C</span>
+            <span class="badge">Protocoles</span>
+            <span class="badge">Embarqué</span>
+          </div>
+          <div class="card-actions">
+            <a class="btn small" href="#" target="_blank" rel="noreferrer">Repo</a>
+            <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">README</a>
+          </div>
+        </article>
       </div>
 
-      <div class="card">
-        <h3>Vérificateur de formules CTL (en équipe)</h3>
-        <p class="LF">
-          <strong>Langage : </strong><B>🔹Java</B><br>
+      <details class="more">
+        <summary>Voir plus de projets</summary>
+        <p class="muted">
+          Astuce : tu peux ajouter ici une liste rapide de dépôts (liens) ou dupliquer les cartes.
         </p>
-        <p>
-          <ul class="hidden">
-            <li>Développement d’un logiciel de model checking pour vérifier des formules CTL (.ctl) sur des automates finis (.dot) en entrée.</li>
-            <li><B>Compilation :</B> <em>javac -d out/production/untitled src/main/java/org/example/*.java</em></li>
-            <li><B>Exécution :</B> <em>java -cp out/production/untitled org.example.Main automate.dot formule.ctl</em></li>
-          </ul>
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section id="master1">
-    <h2>Projets réalisés en Master 1</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Réseau Social en Java (en équipe)</h3>
-        <p class="LF">
-          <strong>Langage : </strong><B>🔹Java</B>
-          <ul class="hidden">
-            <li>Conception d’un système distribué modélisant des interactions sociales à travers des modèles d’opinion dynamiques.</li>
-          </ul>
-        </p>
-      </div>
-      <div class="card">
-        <h3>Gestion de bibliothèque</h3>
-        <p class="LF">
-          <strong>Langages : </strong><B>🔹HTML,🔹CSS,🔹JavaScript,🔹PHP,🔹MySQL</B>
-          <ul class="hidden">
-            <li>Développement d’un site web de gestion de bibliothèque avec interface utilisateur complète et base de données.</li>
-          </ul>
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section id="licence">
-    <h2>Projets réalisés en Licence</h2>
-    <div class="card">
-      <h3>Visualisation de données sur "La pollution aérienne aux abords des écoles et crèches en île-de-France” (fait sur un poster et en équipe)</h3>
-      <p class="LF">
-        <strong>Langage : </strong><B>🔹Python</B>
-        <ul class="hidden">
-          <li>Analyse et visualisation de données sur la pollution aérienne autour des établissements scolaires d’Île-de-France (2012-2017).</li>
+        <ul class="repo-list">
+          <!-- Remplace # par tes repos -->
+          <li><a href="#" target="_blank" rel="noreferrer">M2-API-foot-management-Scala</a></li>
+          <li><a href="#" target="_blank" rel="noreferrer">M2-Bataille-navale-front-back</a></li>
+          <li><a href="#" target="_blank" rel="noreferrer">M1-Compilation-Projet</a></li>
+          <li><a href="#" target="_blank" rel="noreferrer">L3-Web-Monster</a></li>
         </ul>
-      </p>
-    </div>
-    <div class="grid">
-      <div class="card">
-        <h3>City Mapper</h3>
-        <p class="LF">
-          <strong>Langages : </strong><B>🔹Python,🔹SQL</B>
-          <ul class="hidden">
-            <li>Application de transport public avec gestion de base de données PostgreSQL.</li>
-            <li>Conception d'une application pour les transports en commun qui utilise une base de données postgreSQL pour gérer toutes les données.</li>
-          </ul>
-        </p>
-      </div>
-      <div class="card">
-        <h3>Wordle Client/Serveur</h3>
-        <p class="LF">
-          <strong>Langage : </strong><B>🔹C</B>
-          <ul class="hidden">
-            <li>Jeu Wordle en réseau utilisant sockets, gestion multi-clients via threads.</li>
-            <li>Utilisation des sockets et des fonctions réseaux entre client serveur.</li>
-            <li>Traitement de plusieurs clients par des threads. </li>
-          </ul>
-        </p>
-      </div>
-      <div class="card">
-        <h3>Solveur Booléen</h3>
-        <p class="LF">
-          <strong>Langage : </strong><B>🔹OCaml</B>
-          <ul class="hidden">
-            <li>Résolution de systèmes d’équations booléennes.</li>
-          </ul>
-        </p>
-      </div>
-      <div class="card">
-        <h3>Robot Trieur (en équipe)</h3>
-        <p class="LF">
-          <strong>Langage :</strong><B>🔹C</B>
-          <ul class="hidden">
-            <li>Simulation de tri robotisé à l’aide de structures de données AVL.</li>
-            <li>Utilisation des AVL et des structures données pour déplacement du robot.</li>
-          </ul>
-        </p>
-      </div>
-      <div class="card">
-        <h3>Jeu ISOLA (en équipe)</h3>
-        <p class="LF">
-          <strong>Langages :</strong><B>🔹HTML,🔹CSS,🔹JavaScript</B>
-          <ul class="hidden">
-            <li>Jeu de stratégie combinatoire abstrait entre 2 joueurs.</li>
-          </ul>
-        </p>
-      </div>
-      <div class="card">
-        <h3>Recherche de villes</h3>
-        <p class="LF">
-          <strong>Langage :</strong><B>🔹C</B>
-          <ul class="hidden">
-            <li>Recherche géographique via arbres binaires (altitudes, longitudes).</li>
-            <li>Utilisation des arbres binaires et de recherche pour chercher des 
-              villes avec l’affichage de leurs longitudes et altitudes </li>
-          </ul>
-        </p>
-      </div>
-    </div>
-  </section>
+      </details>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>📧 myriammilha.pro@outlook.fr</p>
-  </section>
+    <!-- SECTIONS PAR NIVEAU -->
+    <section id="master2" class="section container">
+      <div class="section-head">
+        <h2>Master 2</h2>
+        <p class="muted">Projets principaux M2 (2024–2025).</p>
+      </div>
 
-  <footer>
-    <p>&copy; 2025 Myriam Milha</p>
+      <div class="grid list-grid">
+        <article class="card item">
+          <h3>M2 — CTL model checker</h3>
+          <p class="muted">Java · DOT · CTL · Model checking</p>
+          <a class="btn small" href="#" target="_blank" rel="noreferrer">Repo</a>
+        </article>
+
+        <article class="card item">
+          <h3>M2 — Web App</h3>
+          <p class="muted">JavaScript · (Nuxt / API)</p>
+          <a class="btn small" href="#" target="_blank" rel="noreferrer">Repo</a>
+        </article>
+
+        <article class="card item">
+          <h3>M2 — API foot management (Scala)</h3>
+          <p class="muted">Scala · API</p>
+          <a class="btn small" href="#" target="_blank" rel="noreferrer">Repo</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="master1" class="section container">
+      <div class="section-head">
+        <h2>Master 1</h2>
+        <p class="muted">Structures de données, compilation, Java distribué, etc.</p>
+      </div>
+
+      <div class="grid list-grid">
+        <article class="card item">
+          <h3>M1 — Structures de données</h3>
+          <p class="muted">Python</p>
+          <a class="btn small" href="#" target="_blank" rel="noreferrer">Repo</a>
+        </article>
+
+        <article class="card item">
+          <h3>M1 — Programmation Java distribuée</h3>
+          <p class="muted">Java</p>
+          <a class="btn small" href="#" target="_blank" rel="noreferrer">Repo</a>
+        </article>
+
+        <article class="card item">
+          <h3>M1 — Compilation</h3>
+          <p class="muted">Java</p>
+          <a class="btn small" href="#" target="_blank" rel="noreferrer">Repo</a>
+        </article>
+
+        <article class="card item">
+          <h3>M1 — Conduite & Gestion</h3>
+          <p class="muted">Projet</p>
+          <a class="btn small" href="#" target="_blank" rel="noreferrer">Repo</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="licence" class="section container">
+      <div class="section-head">
+        <h2>Licence</h2>
+        <p class="muted">Projets L2/L3 (réseaux, web, visualisation, etc.).</p>
+      </div>
+
+      <div class="grid list-grid">
+        <article class="card item">
+          <h3>L2 — Structures de données</h3>
+          <p class="muted">C</p>
+          <a class="btn small" href="#" target="_blank" rel="noreferrer">Repo</a>
+        </article>
+
+        <article class="card item">
+          <h3>L2 — Système Réseau mini-projet</h3>
+          <p class="muted">C · Réseau</p>
+          <a class="btn small" href="#" target="_blank" rel="noreferrer">Repo</a>
+        </article>
+
+        <article class="card item">
+          <h3>L3 — Web Monster</h3>
+          <p class="muted">JavaScript</p>
+          <a class="btn small" href="#" target="_blank" rel="noreferrer">Repo</a>
+        </article>
+
+        <article class="card item">
+          <h3>L3 — Visualisation de données (poster)</h3>
+          <p class="muted">HTML</p>
+          <a class="btn small" href="#" target="_blank" rel="noreferrer">Repo</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- A PROPOS -->
+    <section id="a-propos" class="section container">
+      <div class="section-head">
+        <h2>À propos</h2>
+      </div>
+
+      <div class="card about">
+        <p>
+          J’aime concevoir des solutions simples et robustes : architecture claire, code lisible,
+          tests quand c’est pertinent, et une attention particulière à la fiabilité/sécurité.
+          J’apprécie autant les sujets “bas niveau” (C, systèmes) que les projets web (API, front/back).
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+      <div class="section-head">
+        <h2>Contact</h2>
+      </div>
+
+      <div class="grid contact-grid">
+        <div class="card contact-card">
+          <h3>Email</h3>
+          <p class="muted">Réponse sous 24–48h.</p>
+          <a class="btn" href="mailto:myriammilha.pro@outlook.fr">myriammilha.pro@outlook.fr</a>
+        </div>
+
+        <div class="card contact-card">
+          <h3>LinkedIn</h3>
+          <a class="btn ghost" href="https://www.linkedin.com/in/myriam-milha/" target="_blank" rel="noreferrer">Voir LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="muted">© <span id="year">2026</span> Myriam Milha — Portfolio.</p>
+      <p class="muted small">Construit en HTML/CSS — minimaliste.</p>
+    </div>
   </footer>
+
+  <!-- Optionnel (sans JS aussi) : tu peux supprimer ce script si tu veux 0 JS -->
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
