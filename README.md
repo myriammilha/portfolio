@@ -1,14 +1,11 @@
 # 🎓 Portfolio – Myriam Milha
 
 Bienvenue sur mon portfolio en ligne !  
-Je m'appelle **Myriam Milha**, étudiante en **Master 2 Informatique (Programmation, Sûreté, Sécurité)** à l’Université Sorbonne Paris Nord.
-
-Je suis à la recherche d’un **stage de 4 à 6 mois** à partir d’avril/mai 2025.
+Je m'appelle **Myriam Milha**. J'ai été étudiante en **Master 2 Informatique (Programmation, Sûreté, Sécurité)** à l’Université Sorbonne Paris Nord.
 
 ## 🔗 Accès au site
 
-➡️ [Voir le portfolio en ligne](https://myriam-milha.github.io/portfolio/)  
-*(Scannez le QR code sur mon CV pour y accéder également)*
+➡️ [Voir le portfolio en ligne](https://myriammilha.github.io/portfolio/)  
 
 ## 📁 Contenu
 
