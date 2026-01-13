@@ -515,3 +515,10 @@ summary:focus-visible{
   html:focus-within{ scroll-behavior: auto; }
   *{ transition: none !important; }
 }
+
+
+.project-title {
+  color: #6a1dc8;          /* ou ta couleur principale */
+  font-weight: 600;
+  margin: 0.3rem 0;
+}
