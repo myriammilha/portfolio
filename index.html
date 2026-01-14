@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio — Myriam Milha</title>
-  <meta name="description" content="Portfolio de Myriam Milha — projets Master/Licence, web, sécurité, systèmes, embarqué." />
+  <meta name="description" content="Portfolio de Myriam Milha — projets Master/Licence, persos" />
   <link rel="stylesheet" href="portfolio.css" />
 </head>
 
@@ -17,7 +17,7 @@
         <div class="brand-mark" aria-hidden="true">MM</div>
         <div class="brand-text">
           <h1>Myriam Milha</h1>
-          <p>Développeuse junior · Full-stack / Systèmes / Sécurité</p>
+          <p>Développeuse junior · Full-stack</p>
         </div>
       </div>
 
@@ -37,55 +37,12 @@
     <section class="hero container">
       <div class="hero-left">
         <p class="kicker">Portfolio</p>
-        <h2>Projets — web, systèmes, embarqué, model checking.</h2>
+        <h2>Myriam MILHA</h2>
 
         <p class="lead">
-          Développeuse junior diplômée d’un Master Informatique (Programmation, Sûreté & Sécurité) à l’Université
-          Sorbonne Paris Nord. Intéressée par le full-stack, les systèmes et la sécurité, avec une base solide en
-          Java, C, Scala et JavaScript.
+          Développeuse junior diplômée d’un Master Informatique (Programmation, Sûreté & Sécurité) à l’Université Sorbonne Paris Nord.
         </p>
-
-        <div class="chips" aria-label="Domaines">
-          <span class="chip">Full-Stack</span>
-          <span class="chip">Systèmes</span>
-          <span class="chip">Sécurité</span>
-          <span class="chip">Java / Scala</span>
-          <span class="chip">C</span>
-          <span class="chip">Web</span>
-        </div>
-
-        <div class="hero-actions">
-          <a class="btn primary" href="#projets">Voir les projets</a>
-          <a class="btn" href="#contact">Contact</a>
-        </div>
-
-        <div class="quick-links" aria-label="Liens rapides">
-          <!-- Remplace # par tes liens -->
-          <a class="link" href="https://github.com/myriammilha" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="link" href="https://www.linkedin.com/in/myriam-milha/" target="_blank" rel="noreferrer">LinkedIn</a>
-          <!--<a class="link" href="#" target="_blank" rel="noreferrer">CV (PDF)</a> -->
-        </div>
       </div>
-
-      <aside class="hero-right" aria-label="Résumé">
-        <div class="panel">
-          <h3>Ce qu'on trouve ici</h3>
-          <ul class="bullets">
-            <li>Projets universitaires (L2/L3/M1/M2)</li>
-            <li>APIs, front/back, CI/CD</li>
-            <li>Algo, compilation, réseaux, vérification formelle</li>
-          </ul>
-        </div>
-
-        <div class="panel">
-          <h3>Stack</h3>
-          <ul class="tags">
-            <li>Java</li><li>Scala</li><li>C</li><li>Python</li>
-            <li>JavaScript</li><li>Node/Express</li><li>Nuxt</li>
-            <li>Git</li><li>Tests</li><li>CI/CD</li>
-          </ul>
-        </div>
-      </aside>
     </section>
 
 
@@ -96,7 +53,7 @@
       <div class="section-head">
         <h2>Projets</h2>
         <p class="muted">
-          Sélection de projets. Chaque carte pointe vers le dépôt GitHub (pas de démo vidéo pour l'instant).
+          (Pas de démo vidéo pour l'instant)
         </p>
       </div>
 
@@ -126,13 +83,16 @@
     <section id="master2" class="section container">
       <div class="section-head">
         <h2>Master 2</h2>
-        <p class="muted">Projets principaux M2 (2024–2025).</p>
+        <p class="muted">Développement JavaScript avancé et ubiquitaire, Réseaux de Petri, Spécification et vérification des systèmes, Design et expérience utilisateur, Détection d'intrusions, Programmes et preuves, Environnement de développement (Coq), Programmation modulaire (Scala), Anglais (2024–2025)</p>
       </div>
 
+      <!-- 2024-2025 -->
       <div class="grid list-grid">
         <article class="card item">
           <h3>M2 — Web App (Nuxt + API Express)</h3>
-          <p class="muted">Nuxt · Express · CI/CD</p>
+          <h4 class="project-title">changer</h4>
+          <p class="muted">Solo</p>
+          <p class="muted">Backend: Node.js, Express.js  · Frontend: Nuxt 3, Vue.js · HTTP: Fetch API · Testing: Jest, Supertest · CI/CD: GitLab CI · Tools: npm, ESLint, Babel</p>
           <p>
             Application Nuxt consommant une API Express (Fetch API), avec tests et CI/CD.
           </p>
@@ -140,8 +100,18 @@
         </article>
 
         <article class="card item">
-          <h3>M2 — CTL model checker</h3>
-          <p class="muted">Java · DOT · CTL · Model checking</p>
+          <h3>M2 — Web App :</h3>
+          <h4 class="project-title">changer</h4>
+          <p class="muted">En équipe</p>
+          <p class="muted">JavaScript · (Nuxt / API)</p>
+          <a class="btn small" href="https://github.com/myriammilha/M2-Web-App.git" target="_blank" rel="noreferrer">Repo</a>
+        </article>
+
+        <article class="card item">
+          <h3>M2 — CTL model checker :</h3>
+          <h4 class="project-title">changer</h4>
+          <p class="muted">En équipe</p>
+          <p class="muted">Java · JavaCC · CTL (Computation Tree Logic) · Model Checking · Git / GitHub</p>
           <p>
             Implémentation d’un model checker CTL : parsing d’automates (DOT) et de formules CTL, puis
             vérification de satisfaisabilité.
@@ -150,19 +120,17 @@
         </article>
 
         <article class="card item">
-          <h3>M2 — Web App</h3>
-          <p class="muted">JavaScript · (Nuxt / API)</p>
-          <a class="btn small" href="https://github.com/myriammilha/M2-Web-App.git" target="_blank" rel="noreferrer">Repo</a>
-        </article>
-
-        <article class="card item">
-          <h3>M2 — API foot management (Scala)</h3>
+          <h3>M2 — API foot management (Scala) :</h3>
+          <h4 class="project-title">changer</h4>
+          <p class="muted">En équipe</p>
           <p class="muted">Scala · API</p>
           <a class="btn small" href="https://github.com/myriammilha/M2-API-foot-management-Scala.git" target="_blank" rel="noreferrer">Repo</a>
         </article>
 
         <article class="card item">
-          <h3>M2 — Bataille Navale (React)</h3>
+          <h3>M2 — Bataille Navale (React) :</h3>
+          <h4 class="project-title">changer</h4>
+          <p class="muted">En équipe</p>
           <p class="muted">React · API</p>
           <a class="btn small" href="https://github.com/myriammilha/M2-Bataille-navale-front-back.git" target="_blank" rel="noreferrer">Repo</a>
         </article>
@@ -174,47 +142,63 @@
     <section id="master1" class="section container">
       <div class="section-head">
         <h2>Master 1</h2>
-        <p class="muted">Structures de données, Java distribué, Compilation, Conduite et gestion.</p>
+        <p class="muted">Structures de données, Programmation distribuée Java, Compilation, Conduite et gestion, Fondements de la programmation, Calculabilité et complexité, Bases de données, Réseaux informatiques, Anglais (2023–2024)</p>
       </div>
-
+      
+      <!-- 2023-2024 -->
       <div class="grid list-grid">
         <article class="card item">
-          <h3>M1 — Structures de données : </h3>
+          <h3>M1 — Structures de données :</h3>
           <h4 class="project-title">N-Body Simulation with QuadTree (Barnes–Hut)</h4>
-          <p class="muted">Python</p>
+          <p class="muted">En équipe</p>
+          <p class="muted">Python 3 · NumPy · Pygame · JavaScript (ES6) · p5.js · HTML5 · Git / GitHub</p>
           <a class="btn small" href="https://github.com/myriammilha/M1-SDA-SimulationN-corps_quadtree_AffichagePygame.git" target="_blank" rel="noreferrer">Repo</a>
         </article>
 
         <article class="card item">
-          <h3>M1 — Programmation Java distribuée : </h3>
+          <h3>M1 — Programmation Java distribuée :</h3>
           <h4 class="project-title">Plateforme Sociale</h4>
-          <p class="muted">Java</p>
+          <p class="muted">En équipe</p>
+          <p class="muted">Java · TCP (Sockets) · Multithreading · Java Logging</p>
           <a class="btn small" href="https://github.com/myriammilha/M1-Prog-Java-Distribuee-Plateforme_Sociale.git" target="_blank" rel="noreferrer">Repo</a>
         </article>
 
         <article class="card item">
-          <h3>M1 — Programmation Java distribuée : </h3>
+          <h3>M1 — Programmation Java distribuée :</h3>
           <h4 class="project-title">TCP Sockets</h4>
+          <p class="muted">En équipe</p>
           <p class="muted">Java</p>
           <a class="btn small" href="https://github.com/myriammilha/M1-Prog-Java-Distribuee-TCP_Sockets.git" target="_blank" rel="noreferrer">Repo</a>
         </article>
 
         <article class="card item">
-          <h3>M1 — Compilation</h3>
+          <h3>M1 — Compilation :</h3>
           <h4 class="project-title">Lexeur / Parseur (Compilateur)</h4>
-          <p class="muted">Java</p>
+          <p class="muted">En équipe</p>
+          <p class="muted">Ocaml · ocamllex · ocamlyacc · Makefile · Git / GitHub</p>
           <a class="btn small" href="https://github.com/myriammilha/M1-Compilation-Lexeur_Parseur.git" target="_blank" rel="noreferrer">Repo</a>
         </article>
 
         <article class="card item">
-          <h3>M1 — Compilation</h3>
+          <h3>M1 — Compilation :</h3>
           <h4 class="project-title">Lexeur / Parseur avec AST (Compilateur)</h4>
-          <p class="muted">Java</p>
+          <p class="muted">En équipe</p>
+          <p class="muted">Ocaml · ocamllex · ocamlyacc · AST (Abstract Syntax Tree) · Makefile · Git / GitHub</p>
           <a class="btn small" href="https://github.com/myriammilha/M1-Compilation-Lexeur_Parseur_AST.git" target="_blank" rel="noreferrer">Repo</a>
         </article>
 
         <article class="card item">
+          <h3>M1 — Compilation :</h3>
+          <h4 class="project-title">Lexeur / Parseur avec AST (Compilateur)</h4>
+          <p class="muted">En équipe</p>
+          <p class="muted">Java · JavaCC · AST (Abstract Syntax Tree) · Makefile · Git / GitHub</p>
+          <a class="btn small" href="https://github.com/myriammilha/M1-Compilation-Lexeur_Parseur_AST_Java.git" target="_blank" rel="noreferrer">Repo</a>
+        </article>
+
+        <article class="card item">
           <h3>M1 — Conduite & Gestion</h3>
+          <h4 class="project-title">Site Pâtisserie / Boulangerie commandes/livraisons</h4>
+          <p class="muted">En équipe</p>
           <p class="muted">Projet</p>
           <a class="btn small" href="https://github.com/myriammilha/M1-Conduite-et-Gestion-Projet.git" target="_blank" rel="noreferrer">Repo</a>
         </article>
@@ -226,38 +210,63 @@
     <section id="licence" class="section container">
       <div class="section-head">
         <h2>Licence</h2>
-        <p class="muted">Projets L2/L3 (réseaux, web, visualisation, Structures de données).</p>
-      </div>
+        <p class="muted">L3 : Programmation web, Visualisation des données, Compilation, Initiation à la recherche, Bases de données, Calculabilité, Automates et théories des langages, Maths pour l'info, Anglais (2022–2023)</p><!-- 2022-2023-->
+        <p class="muted">L2 : Systèmes & réseaux (C), Structures de données avancées, Programmtion orientée objet (Java), Administration système, Programmation impérative, Architecture des ordinateurs, Maths pr l'info, Programmation fonctionnelle, Anglais</p><!-- 2020-2022-->
+        <p class="muted">L1 : Programmation impérative (C), Algèbre, Analyse, Physique, Anglais</p><!-- 2017-2020-->
+        </div>
 
       <div class="grid list-grid">
+        <!-- 2022-2023-->
         <article class="card item">
-          <h3>L3 — Web Monster</h3>
-          <p class="muted">JavaScript</p>
-          <a class="btn small" href="https://github.com/myriammilha/L3-Web-Monster.git" target="_blank" rel="noreferrer">Repo</a>
+          <h3>L3 — Programmation Web :</h3>
+          <h4 class="project-title">Jeu - Vie et mort du Monstre</h4>
+          <p class="muted">En binôme</p>
+          <p class="muted">HTML5 · CSS3 · JavaScript (ES6) · GSAP (animations)</p>
+          <a class="btn small" href="https://github.com/myriammilha/L3-ProgWeb-Monster.git" target="_blank" rel="noreferrer">Repo</a>
         </article>
 
+        <!-- 2022-2023 -->
         <article class="card item">
-          <h3>L3 — Visualisation de données :<h3> 
+          <h3>L3 — Visualisation de données :</h3> 
           <h4 class="project-title">Pollution aérienne aux abords des écoles et des crèches d'Île-de-France de 2012 à 2017</h4>
+          <p class="muted">En équipe</p>
           <p class="muted">Python</p>
           <a class="btn small" href="https://github.com/myriammilha/L3-Visulalisation-de-donnees-Poster.git" target="_blank" rel="noreferrer">Repo</a>
         </article>
 
+        <!-- 2022 je crois-->
         <article class="card item">
-          <h3>L2 — Structures de données</h3>
+          <h3>L2 — Structures de données :</h3>
+          <h4 class="project-title">changer</h4>
+          <p class="muted">En équipe</p>
           <p class="muted">C</p>
           <a class="btn small" href="https://github.com/myriammilha/L2-Structures-de-donnees-Projets.git" target="_blank" rel="noreferrer">Repo</a>
         </article>
 
+        <!-- avril 2022 -->
         <article class="card item">
-          <h3>L2 — Système Réseau mini-projet</h3>
+          <h3>L2 — Système Réseau:</h3>
+          <h4 class="project-title">Mini-projet</h4>
+          <p class="muted">En équipe</p>
           <p class="muted">C · Réseau</p>
           <a class="btn small" href="https://github.com/myriammilha/L2-SystemeReseau-Mini-Projet.git" target="_blank" rel="noreferrer">Repo</a>
         </article>
 
+        <!-- avril 2021 -->
         <article class="card item">
-          <h3>L2 — UE Jeu ISOLA</h3>
-          <p class="muted">HTML / CSS/ Javascript</p>
+          <h3>L2 — Système Réseau :</h3>
+          <h4 class="project-title">Mini-projet - Serveur Client</h4>
+          <p class="muted">En équipe</p>
+          <p class="muted">C · Réseau</p>
+          <a class="btn small" href="https://github.com/myriammilha/L2-SystemeReseau-Mini-Projet_Serveur_Client.git" target="_blank" rel="noreferrer">Repo</a>
+        </article>
+
+        <!-- 2021 -->
+        <article class="card item">
+          <h3>L2 — UE Projet</h3>
+          <h4 class="project-title">Jeu - ISOLA</h4>
+          <p class="muted">En équipe</p>
+          <p class="muted">HTML5 · CSS3 · Javascript · GSAP (animations) · Git / GitHub</p>
           <a class="btn small" href="https://github.com/myriammilha/L2-UE-Projet-ISOLA.git" target="_blank" rel="noreferrer">Repo</a>
         </article>
       </div>
